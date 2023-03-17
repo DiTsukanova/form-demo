@@ -1,0 +1,46 @@
+.row {
+    margin-top: 2em;
+}
+
+.result {
+    width: 50%;
+    min-width: 300px;
+}
+
+.row label {
+    display: block;
+    min-width: 10em;
+}
+
+.row input {
+    width: 100%;
+}
+
+input {
+    font-size: 16px;
+    padding: 4px;
+}
+
+.suggestions-input {
+    width: 80%;
+    min-width: 300px;
+}
+
+
+.list {
+    width: 60%;
+    position: absolute;
+    background-color: white;
+}
+
+.list__item {
+    list-style: none;
+    padding: 7px;
+   
+}
+
+.list__item:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
